@@ -24,6 +24,38 @@ The project is expected to include the following components:
 - performance evaluation with appropriate metrics,
 - application or dashboard layer for presenting predictions and insights.
 
+## Project Structure
+
+The repository is planned to follow a clean and extensible structure:
+
+- `data/` for raw, interim, and processed datasets,
+- `notebooks/` for exploratory analysis and experimentation,
+- `src/` for reusable source code and project modules,
+- `models/` for trained model artifacts and serialized outputs,
+- `tests/` for automated tests and validation scripts.
+
+## Installation
+
+The installation workflow will be documented in more detail as the project implementation progresses. A typical setup is expected to follow these steps:
+
+```bash
+git clone https://github.com/EmirhanSariyar/Churn-Prediction-App.git
+cd Churn-Prediction-App
+pip install -r requirements.txt
+```
+
+Additional environment and dependency instructions will be added once the application and training pipeline are finalized.
+
+## Usage
+
+Usage examples and execution commands will be added as the first functional version of the project is introduced.
+
+Planned usage areas include:
+
+- running data preparation workflows,
+- training and evaluating churn models,
+- launching an application interface for prediction and reporting.
+
 ## Repository Status
 
 This repository is currently in the initial setup phase. The codebase and project structure will be expanded incrementally as the data pipeline, modeling workflow, and application interface are developed.
