@@ -34,6 +34,19 @@ The repository is planned to follow a clean and extensible structure:
 - `models/` for trained model artifacts and serialized outputs,
 - `tests/` for automated tests and validation scripts.
 
+Expected top-level layout:
+
+```text
+Churn-Prediction-App/
+|-- app.py
+|-- requirements.txt
+|-- data/
+|-- notebooks/
+|-- src/
+|-- models/
+`-- tests/
+```
+
 ## Installation
 
 The installation workflow will be documented in more detail as the project implementation progresses. A typical setup is expected to follow these steps:
