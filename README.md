@@ -44,11 +44,25 @@ cd Churn-Prediction-App
 pip install -r requirements.txt
 ```
 
+For a cleaner local setup, a virtual environment can also be used:
+
+```bash
+python -m venv .venv
+.venv\Scripts\activate
+pip install -r requirements.txt
+```
+
 Additional environment and dependency instructions will be added once the application and training pipeline are finalized.
 
 ## Usage
 
 Usage examples and execution commands will be added as the first functional version of the project is introduced.
+
+An initial application placeholder can be started with:
+
+```bash
+streamlit run app.py
+```
 
 Planned usage areas include:
 
